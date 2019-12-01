@@ -32,7 +32,7 @@ for (var i = 0; i < arr.length; i++) {
 }
 ```
 
-We've seen for loops 1000 times. Notice we have to maintain the i variable, which is a state. This can easily lead to out of bounds errors and unintended consequences. 
+We've seen for loops 1000's of times. Notice we have to maintain the `i` variable, which is a state. This can easily lead to out of bounds errors and unintended consequences. 
 
 The same algorithm with a `.map` call:
 ```
@@ -69,7 +69,7 @@ Two facts I kept drilling in my head are as follows:
 
 These two facts kept me grounded every time I felt confused. In the second point, I kept building predicates that I wanted to return values. But that's obviously not the nature of Prolog. So what helped me the most was remembering that anytime I thought I needed to return a value in my predicate, it is essentially analogous to introducing a variable in Prolog. Then the "magic" really happens in the query. 
 
-But that was a mouthful. Here's an dead simple comparison using the length -function- predicate, which -returns- represents the number of elements in a list:
+But that was a mouthful. Here's an dead simple comparison using the length ~~function~~- predicate, which ~~returns~~ represents the number of elements in a list:
 
 In Python (a length function):
 ```
